@@ -570,6 +570,7 @@ add_subdirectory (src)
 add_subdirectory (programs)
 add_subdirectory (tests)
 add_subdirectory (utils)
+add_subdirectory (misc)
 
 include (cmake/sanitize_targets.cmake)
 
