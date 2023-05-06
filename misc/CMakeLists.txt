@@ -23,7 +23,7 @@ if(USE_MYMATH)
 endif()
 
 # add the executable
-add_executable(Tutorial tutorial.cxx)
+add_executable(Tutorial tutorial.cxx leet_123.cpp)
 
 target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})
 
